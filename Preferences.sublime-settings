@@ -60,7 +60,9 @@
 		"Markdown Preview",
 		"Ruby Extract Method",
 		"RubyCheckOnSave",
-		"SCSS"
+		"SCSS",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint"
 	],
 	"open_files_in_new_window": false,
 	"remember_open_files": false,
