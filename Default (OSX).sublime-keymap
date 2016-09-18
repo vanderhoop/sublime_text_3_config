@@ -30,5 +30,7 @@
   { "keys": ["super+shift+j"], "command": "run_macro_file", "args": {"file": "Packages/User/delete_line_above_current_line.sublime-macro"} },
   { "keys": ["ctrl+b"], "command": "toggle_bookmark" },
   { "keys": ["ctrl+["], "command": "prev_bookmark" },
-  { "keys": ["ctrl+]"], "command": "next_bookmark" }
+  { "keys": ["ctrl+]"], "command": "next_bookmark" },
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["super+shift+v"], "command": "paste" }
 ]
