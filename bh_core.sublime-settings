@@ -1,0 +1,16 @@
+{
+  "bracket_styles": {
+    "default": {
+      "icon": "none",
+      "style": "solid"
+    },
+    "single_quote": {
+      "icon": "none",
+      "style": "none"
+    },
+    "double_quote": {
+      "icon": "none",
+      "style": "none"
+    }
+  }
+}

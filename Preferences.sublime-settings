@@ -1,0 +1,75 @@
+{
+	"auto_complete": false,
+	"auto_indent": true,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
+	"bold_folder_labels": true,
+	"check_for_rbenv": true,
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
+	"copy_with_empty_selection": true,
+	"default_line_ending": "LF",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".DS_STORE",
+		"*.csv",
+		"newrelic_agent.log",
+		".tags*",
+		"dev_dump.sql",
+		"dev_schema_dump.sql",
+		"dev_schema_dump_01_07_2015.sql",
+		"dump.rdb"
+	],
+	"folder_exclude_patterns":
+	[
+		"bower_components",
+		"node_modules",
+		"log",
+		"app/assets/semantic/src/themes/default",
+		"app/assets/semantic/src/site/",
+		".git"
+	],
+	"font_face": "Courier New",
+	"font_size": 19.0,
+	"highlight_line": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Clipboard History",
+		"Color Highlighter",
+		"EditorConfig",
+		"JSHint Gutter",
+		"JumpTo",
+		"RSpec",
+		"Ruby Extract Method",
+		"RubyCheckOnSave"
+	],
+	"open_files_in_new_window": false,
+	"remember_open_files": false,
+	"ruby_command": "~/.rbenv/shims/ruby",
+	"rulers":
+	[
+		80
+	],
+	"save_on_focus_lost": true,
+	"scroll_past_end": true,
+	"smart_indent": true,
+	"tab_size": 2,
+	"trailing_spaces_trim_on_save": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

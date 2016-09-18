@@ -1,0 +1,16 @@
+{
+    "user": {
+        "@disable": true,
+        "gutter_theme": "none",
+        "lint_mode": "save only",
+        "linters": {
+            "eslint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            }
+        },
+        "passive_warnings": true,
+        "show_errors_on_save": false
+    }
+}

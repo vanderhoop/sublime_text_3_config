@@ -1,0 +1,8 @@
+// Place your settings in the file "User/CTags.sublime-settings", which
+// overrides the settings in here.
+{
+    // Additional options to pass to ctags, i.e.
+    // ["--exclude=some/path", "--exclude=some/other/path", ...]
+    "opts" : ["--exclude=.git", "--exclude=node_modules", "--exclude=bower_components", "--exclude=spec"],
+    "command" : "/usr/local/bin/ctags"
+}
