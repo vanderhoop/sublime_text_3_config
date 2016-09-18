@@ -1,4 +1,5 @@
 {
+  "match_only_adjacent": true,
   "bracket_styles": {
     "default": {
       "icon": "none",
