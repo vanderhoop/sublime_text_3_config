@@ -52,11 +52,15 @@
 		"Clipboard History",
 		"Color Highlighter",
 		"EditorConfig",
+		"JavaScript Completions",
+		"JavaScriptNext - ES6 Syntax",
 		"JSHint Gutter",
+		"JSX",
 		"JumpTo",
-		"RSpec",
+		"Markdown Preview",
 		"Ruby Extract Method",
-		"RubyCheckOnSave"
+		"RubyCheckOnSave",
+		"SCSS"
 	],
 	"open_files_in_new_window": false,
 	"remember_open_files": false,
