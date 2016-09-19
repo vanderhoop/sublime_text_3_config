@@ -12,6 +12,10 @@
     "double_quote": {
       "icon": "none",
       "style": "none"
+    },
+    "angle": {
+      "icon": "none",
+      "style": "outline"
     }
   }
 }
