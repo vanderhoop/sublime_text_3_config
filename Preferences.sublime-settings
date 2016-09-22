@@ -49,6 +49,7 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"BracketHighlighter",
 		"Clipboard History",
 		"Color Highlighter",
 		"EditorConfig",
