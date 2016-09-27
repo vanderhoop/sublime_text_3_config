@@ -4,6 +4,6 @@ describe('when ${1}', () => {
 
 })
 ]]></content>
-  <tabTrigger>des</tabTrigger>
+  <tabTrigger>de</tabTrigger>
   <scope>source.js</scope>
 </snippet>
