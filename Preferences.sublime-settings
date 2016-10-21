@@ -42,7 +42,9 @@
 		"log",
 		"app/assets/semantic/src/themes/default",
 		"app/assets/semantic/src/site/",
-		".git"
+		".git",
+		"deps",
+		"_build"
 	],
 	"font_face": "Courier New",
 	"font_size": 19.0,
