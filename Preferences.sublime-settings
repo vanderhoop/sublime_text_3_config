@@ -33,7 +33,8 @@
 		"dev_dump.sql",
 		"dev_schema_dump.sql",
 		"dev_schema_dump_01_07_2015.sql",
-		"dump.rdb"
+		"dump.rdb",
+		"*.beam"
 	],
 	"folder_exclude_patterns":
 	[
@@ -43,8 +44,9 @@
 		"app/assets/semantic/src/themes/default",
 		"app/assets/semantic/src/site/",
 		".git",
-		"deps",
-		"_build"
+		"priv/static/",
+		"_build/",
+		"deps/"
 	],
 	"font_face": "Courier New",
 	"font_size": 19.0,
