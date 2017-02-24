@@ -33,7 +33,9 @@
 		"dev_dump.sql",
 		"dev_schema_dump.sql",
 		"dev_schema_dump_01_07_2015.sql",
+		"phoenix.css",
 		"dump.rdb",
+		"yarn.lock",
 		"*.beam"
 	],
 	"folder_exclude_patterns":
