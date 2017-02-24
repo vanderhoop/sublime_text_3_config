@@ -1,0 +1,9 @@
+{
+  "snippets": {
+    "js": {
+     "abbreviations": {
+       "des": "describe(\"\", () => {})"
+     }
+    }
+  },
+}
