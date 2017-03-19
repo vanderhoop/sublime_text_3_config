@@ -79,7 +79,7 @@
 	"ruby_command": "~/.rbenv/shims/ruby",
 	"rulers":
 	[
-		80
+		100
 	],
 	"save_on_focus_lost": true,
 	"scroll_past_end": true,
