@@ -47,6 +47,7 @@
 		"app/assets/semantic/src/site/",
 		".git",
 		"priv/static/",
+		"web/static/vendor",
 		"_build/",
 		"deps/"
 	],
