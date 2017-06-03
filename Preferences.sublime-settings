@@ -36,6 +36,7 @@
 		"phoenix.css",
 		"dump.rdb",
 		"yarn.lock",
+		"*.hot-update.*",
 		"*.beam"
 	],
 	"folder_exclude_patterns":
