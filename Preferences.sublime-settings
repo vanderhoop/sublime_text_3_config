@@ -37,6 +37,7 @@
 		"dump.rdb",
 		"yarn.lock",
 		"*.hot-update.*",
+		"*.map",
 		"*.beam"
 	],
 	"folder_exclude_patterns":
