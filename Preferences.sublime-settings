@@ -37,6 +37,7 @@
 		"dump.rdb",
 		"yarn.lock",
 		"*.hot-update.*",
+		"*.vendor.*",
 		"*.map",
 		"*.beam"
 	],
