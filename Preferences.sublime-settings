@@ -99,6 +99,10 @@
 			"*/web/static/js/**/*.jsx",
 			"*/test/**/*_test.js"
 		],
+		[
+			"*/web/**/*.ex",
+			"*/test/**/*_test.exs"
+		],
 	],
 	"remember_open_files": false,
 	"ruby_command": "~/.rbenv/shims/ruby",
