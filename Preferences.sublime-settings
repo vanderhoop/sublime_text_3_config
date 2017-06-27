@@ -1,6 +1,13 @@
 {
+	"auto_complete_triggers": [{
+		"characters": "<",
+		"selector": "text.html"
+	}, {
+		"characters": "/",
+		"selector": "string.quoted.double.html,string.quoted.single.html, source.js"
+	}],
 	"animation_enabled": false,
-	"auto_complete": false,
+	"auto_complete": true,
 	"auto_indent": true,
 	"binary_file_patterns":
 	[
