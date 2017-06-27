@@ -67,5 +67,7 @@
   { "keys": ["super+v"], "command": "paste_and_indent" },
   { "keys": ["super+shift+v"], "command": "paste" },
   { "keys": ["super+."], "command": "open_related" },
-  { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} }
+  { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+  { "keys": ["super+t"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} }
+
 ]
