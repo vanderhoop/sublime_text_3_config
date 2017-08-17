@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+context("when ${1}", () => {
+
+})
+]]></content>
+  <tabTrigger>con</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
+
