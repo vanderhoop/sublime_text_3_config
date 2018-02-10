@@ -4,12 +4,6 @@
     "command": "expand_abbreviation_by_tab",
     "context": [
       {
-        "operand": "meta.group.braces.round.js, text.html",
-        "operator": "equal",
-        "match_all": true,
-        "key": "selector"
-      },
-      {
         "match_all": true,
         "key": "selection_empty"
       },
