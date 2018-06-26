@@ -1,16 +1,12 @@
+// SublimeLinter Settings - User
 {
-    "user": {
-        "@disable": true,
-        "gutter_theme": "none",
-        "lint_mode": "save only",
-        "linters": {
-            "eslint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            }
-        },
-        "passive_warnings": true,
-        "show_errors_on_save": false
-    }
+  "paths": {
+    "linux": [],
+    "osx": [
+      "~/.nvm/versions/node/v7.5.0/bin",
+      "~/.nvm/versions/node/v8.7.0/bin",
+      "~/.nvm/versions/node/v9.4.0/bin"
+     ],
+    "windows": []
+ }
 }

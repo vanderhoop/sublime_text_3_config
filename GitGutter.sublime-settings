@@ -1,5 +1,4 @@
 {
-  "show_status": "none",
   "protected_regions": [
     "sublimelinter-warning-marks",
     "sublimelinter-error-marks",
