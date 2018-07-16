@@ -1,29 +1,12 @@
 [
-  {
-    "keys": ["tab"],
-    "command": "expand_abbreviation_by_tab",
-    "context": [
-      {
-        "match_all": true,
-        "key": "selection_empty"
-      },
-      {
-        "operator": "equal",
-        "operand": false,
-        "match_all": true,
-        "key": "has_next_field"
-      },
-      {
-        "operand": false,
-        "operator": "equal",
-        "match_all": true,
-        "key": "auto_complete_visible"
-      },
-      {
-        "match_all": true,
-        "key": "is_abbreviation"
-      }
-    ]
+  { "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context":
+      [
+          { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" },
+          { "match_all": true, "key": "selection_empty" },
+          { "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
+          { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
+          { "match_all": true, "key": "is_abbreviation" }
+      ]
   },
   { "keys": ["ctrl+up"], "command": "select_lines", "args": {"forward": false} },
   { "keys": ["ctrl+down"], "command": "select_lines", "args": {"forward": true} },
@@ -35,14 +18,7 @@
   { "keys": ["ctrl+r"], "command": "reveal_in_side_bar" },
   { "keys": ["ctrl+f"], "command": "copy_path" },
   { "keys": ["ctrl+shift+."], "command": "erb" },
-  {
-    "keys": ["j", "j"],
-    "command": "_enter_normal_mode",
-    "args": {
-      "mode": "mode_insert"
-    },
-    "context": [{"key": "vi_insert_mode_aware"}]
-  },
+  {"keys": ["j", "j"], "command": "six_press_key", "args": {"key": "<Esc>"}, "context": [{"key": "six_is_in_insert_mode"}]},
   { "keys": [" "], "command": "insert_snippet", "args": {"contents": " $0 "}, "context":
     [
       { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },

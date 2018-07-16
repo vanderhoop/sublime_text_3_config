@@ -31,7 +31,7 @@
 	],
 	"bold_folder_labels": true,
 	"check_for_rbenv": true,
-	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).tmTheme",
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
 	"copy_with_empty_selection": true,
 	"default_line_ending": "unix",
 	"ensure_newline_at_eof_on_save": true,
@@ -46,22 +46,29 @@
 		"dev_schema_dump_01_07_2015.sql",
 		"phoenix.css",
 		"dump.rdb",
+		"package-lock.json",
 		"yarn.lock",
+		"yarn-error.log",
 		"*.hot-update.*",
 		"*.vendor.*",
 		"*.map",
-		"*.beam"
+		"*.beam",
+		"*.min.js",
+		"*.min.css"
 	],
 	"folder_exclude_patterns":
 	[
-		"bower_components",
+		"www/build",
+		"bundles",
 		"node_modules",
+		"bower_components",
 		"log",
 		"app/assets/semantic/src/themes/default",
 		"app/assets/semantic/src/site/",
 		".git",
 		"priv/static/",
 		"web/static/vendor",
+		"public/assets",
 		"_build/",
 		"deps/"
 	],
@@ -81,13 +88,11 @@
 		"JavaScript Completions",
 		"JavaScriptNext - ES6 Syntax",
 		"JSHint Gutter",
-		"JSX",
 		"JumpTo",
 		"Markdown Preview",
 		"Ruby Extract Method",
 		"RubyCheckOnSave",
 		"SCSS",
-		"Six",
 		"Solarized Toggle",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint"
@@ -102,7 +107,7 @@
 		[
 			"*/web/**/*.ex",
 			"*/test/**/*_test.exs"
-		],
+		]
 	],
 	"remember_open_files": false,
 	"ruby_command": "~/.rbenv/shims/ruby",
@@ -114,6 +119,7 @@
 	"scroll_past_end": true,
 	"smart_indent": true,
 	"tab_size": 2,
+	"theme": "Adaptive.sublime-theme",
 	"trailing_spaces_trim_on_save": true,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
