@@ -5,7 +5,12 @@
     "osx": [
       "~/.nvm/versions/node/v7.5.0/bin",
       "~/.nvm/versions/node/v8.7.0/bin",
-      "~/.nvm/versions/node/v9.4.0/bin"
+      "~/.nvm/versions/node/v9.4.0/bin",
+      "~/.nvm/versions/node/v5.6.0/bin",
+      "~/.nvm/versions/node/v6.11.0/bin",
+      "~/.asdf/installs/nodejs/10.15.1/bin",
+      "~/.asdf/shims/node",
+      "~/.nvm/versions/node/v6.12.0/bin"
      ],
     "windows": []
  }

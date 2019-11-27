@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
-		"ejs"
+		"ejs",
+		"html.erb"
 	]
 }
