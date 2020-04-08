@@ -2,8 +2,8 @@
   <content><![CDATA[
 it("${1}", () => {
 
-})
+});
 ]]></content>
   <tabTrigger>it</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js,source.tsx,source.ts</scope>
 </snippet>

@@ -2,8 +2,8 @@
   <content><![CDATA[
 describe("when ${1}", () => {
 
-})
+});
 ]]></content>
   <tabTrigger>des</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js,source.tsx,source.ts</scope>
 </snippet>
