@@ -35,6 +35,7 @@
   { "keys": ["ctrl+["], "command": "prev_bookmark" },
   { "keys": ["ctrl+]"], "command": "next_bookmark" },
   { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["super+k", "super+a"], "command": "typescript_go_to_definition" },
   { "keys": ["super+shift+v"], "command": "paste" },
   { "keys": ["super+."], "command": "open_related" },
   { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },

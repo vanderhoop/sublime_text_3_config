@@ -1,3 +1,5 @@
 {
-  "disable_tab_abbreviations_for_scopes": "source.js meta.group.braces.round.js meta.group.braces.curly.js, source.js meta.function-call.js meta.group.js meta.block.js meta.function-call.js meta.group.js meta.block.js",
+	"disable_tab_abbreviations_for_scopes": "source.js meta.group.braces.round.js meta.group.braces.curly.js, source.js meta.function-call.js meta.group.js meta.block.js meta.function-call.js meta.group.js meta.block.js",
+	"telemetry": false,
+	"uid": "c9e50a69-90d4-4a37-9be3-3944f4c1f9da"
 }
